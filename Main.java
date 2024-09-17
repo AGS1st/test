@@ -8,7 +8,7 @@ public class Main {
     }
     public static void randomize(){
         List<String> students = Arrays.asList("Ahmed","Suliman","BAndar","khalid");
-        Collection.shuffle(students);
+        Collections.shuffle(students);
             System.out.println("Random Groups: "+ students);
         }
 }
