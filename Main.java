@@ -1,5 +1,14 @@
+import java.util.Collections;
+import java.util.Arrays;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args){
-        System.out.println("Hello, Git");
+        randomize();
     }
+    public static void randomize(){
+        List<String> students = Arrays.asList("Ahmed","Suliman","BAndar","khalid");
+        Collection.shuffle(students);
+            System.out.println("Random Groups: "+ students);
+        }
 }
